@@ -1,0 +1,142 @@
+[
+    {
+        "id": "1",
+        "categoryId": "1",
+        "name": "Tự Học Lập trình PHP"
+    },
+    {
+        "id": "2",
+        "categoryId": "1",
+        "name": "Lập trình Laravel"
+    },
+    {
+        "id": "3",
+        "categoryId": "1",
+        "name": "Lập trình Zend Framework 2x"
+    },
+    {
+        "id": "4",
+        "categoryId": "1",
+        "name": "Lập trình Zend Framework 1x"
+    },
+    {
+        "id": "5",
+        "categoryId": "1",
+        "name": "Lập trình Phalcon Framework"
+    },
+    {
+        "id": "6",
+        "categoryId": "2",
+        "name": "Tự Học HTML & CSS"
+    },
+    {
+        "id": "7",
+        "categoryId": "2",
+        "name": "Tự Học Sass viết CSS chuyên nghiệp"
+    },
+    {
+        "id": "8",
+        "categoryId": "3",
+        "name": "Lập trình jQuery"
+    },
+    {
+        "id": "9",
+        "categoryId": "3",
+        "name": "Tự học Javascript"
+    },
+    {
+        "id": "10",
+        "categoryId": "3",
+        "name": "Lập Trình Javascript ES6"
+    },
+    {
+        "id": "11",
+        "categoryId": "3",
+        "name": "Lập trình TypeScript"
+    },
+    {
+        "id": "12",
+        "categoryId": "3",
+        "name": "Lập trình Angular 2x và Angular 4x"
+    },
+    {
+        "id": "13",
+        "categoryId": "3",
+        "name": "Lập trình ReactJS"
+    },
+    {
+        "id": "14",
+        "categoryId": "3",
+        "name": "Lập trình VueJS"
+    },
+    {
+        "id": "15",
+        "categoryId": "3",
+        "name": "Lập trình NextJS Framework"
+    },
+    {
+        "id": "16",
+        "categoryId": "4",
+        "name": "Thiết kế web tin tức bằng WordPress"
+    },
+    {
+        "id": "17",
+        "categoryId": "4",
+        "name": "Cài đặt và sử dụng WordPress CMS"
+    },
+    {
+        "id": "18",
+        "categoryId": "4",
+        "name": "Xây dựng website bán hàng với VirtueMart"
+    },
+    {
+        "id": "19",
+        "categoryId": "4",
+        "name": "Thiết Kế Web Với Joomla"
+    },
+    {
+        "id": "20",
+        "categoryId": "5",
+        "name": "Tự học SQL"
+    },
+    {
+        "id": "21",
+        "categoryId": "5",
+        "name": "Tự học NoSQL - MongoDB"
+    },
+    {
+        "id": "22",
+        "categoryId": "6",
+        "name": "Lập trình Android"
+    },
+    {
+        "id": "23",
+        "categoryId": "6",
+        "name": "Lập trình Chrome Extension"
+    },
+    {
+        "id": "24",
+        "categoryId": "6",
+        "name": "Quản lý mã nguồn với GIT"
+    },
+    {
+        "id": "25",
+        "categoryId": "7",
+        "name": "Tự học Lập trình JAVA"
+    },
+    {
+        "id": "26",
+        "categoryId": "7",
+        "name": "Lập trình C qua bài tập thực tế"
+    },
+    {
+        "id": "27",
+        "categoryId": "7",
+        "name": "Lập trình Python"
+    },
+    {
+        "id": "28",
+        "categoryId": "8",
+        "name": "Lập trình NodeJS Level 1"
+    }
+]

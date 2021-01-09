@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "name": "LẬP TRÌNH PHP & PHP FRAMEWORK"
+  },
+  {
+    "id": "2",
+    "name": "XÂY DỰNG GIAO DIỆN WEB"
+  },
+  {
+    "id": "3",
+    "name": "LẬP TRÌNH JAVASCRIPT VÀ JQUERY"
+  },
+  {
+    "id": "4",
+    "name": "SỬ DỤNG VÀ LẬP TRÌNH CMS"
+  },
+  {
+    "id": "5",
+    "name": "HỆ QUẢN TRỊ CƠ SỞ DỮ LIỆU"
+  },
+  {
+    "id": "6",
+    "name": "CÁC KHÓA HỌC KHÁC"
+  },
+  {
+    "id": "7",
+    "name": "LẬP TRÌNH CHO NGƯỜI BẮT ĐẦU"
+  },
+  {
+    "id": "8",
+    "name": "LẬP TRÌNH NODEJS"
+  }
+]

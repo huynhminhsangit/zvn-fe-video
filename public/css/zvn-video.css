@@ -1,0 +1,31 @@
+/* ======================= HEADER ======================= */
+header.third-style .nav-list-container {
+  background: rgb(59, 59, 193);
+  background: linear-gradient(
+    90deg,
+    rgba(59, 59, 193, 1) 35%,
+    rgba(0, 255, 231, 1) 100%
+  );
+  color: #fff;
+}
+/* ======================= SECTION COURSE FREE ======================= */
+.zvn-title-section h1 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.image-post .hover-box .inner-hover {
+  padding: 20px 10px;
+}
+/* ======================= FOOTER ======================= */
+footer .widget p {
+  color: #fff;
+}
+ul.links-features {
+  list-style: none;
+  
+}
+
+ul.links-features li>a{
+  color: #cccccc;
+}
