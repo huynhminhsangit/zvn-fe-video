@@ -1,0 +1,33 @@
+Ý tưởng
+    1. Trang chủ
+        Phần view
+            Đầu tiên ở trang chủ em sẽ show 4 khóa học tiêu biểu, tên video sẽ hiển thị full hay cắt ngắn bằng ... như demo, mỗi khóa học 8 video, có nút xem thêm ở dưới
+            Tại mỗi video của khóa học sẽ có nút play khi hover vào, người dùng bấm play thì popup lên, show 1 modal lên. Trong modal sẽ hiện full tên bài học, video để xem. 
+            Người dùng bấm xem thêm sẽ chuyển đến trang tương ứng.
+        Phần model
+            Tạo mảng chứa các thông tin: id, tên khóa học, link playlist, max video hiển thị, link đến trang detail
+            Sau đó foreach, đổ dữ liệu lần lượt ra ra view
+    2. Trang chi tiết
+        Phần view
+            Trang chi tiết khóa học, bên trái hiển thị video, bên phải hiển thị danh sách các bài học.
+            Video nào được xem rồi thì đổi background color từ black sang green tại dòng đó
+            Phía dưới sẽ hiên thị danh sách các khóa học liên quan
+                Bấm vào nút play hoặc tên khóa học để chuyển đến trang chi tiết khóa học đó
+        Phần model
+            Khi người dùng click vô trang chi tiết 1 khóa học, tạo file json course-X.json để lưu tất cả video trong khóa đó. 
+            Mỗi ngày tạo file mới 1 lần
+            Tạo thêm 1 file all-course-content.json để lưu tất cả các bài học trong từng khóa học để lúc search sẽ search được tên bài học trong từng khóa học
+    3. Trang tìm kiếm 
+        Phần view
+            Giao diện giống trang chủ, nhưng khi người dùng tìm kiếm sẽ lọc lại tên khóa học, bài học tương ứng
+        Phần model
+            Người dùng bấm nút tìm kiếm, vô file all-course-content.json lấy ra dữ liệu, so sánh và hiển thị
+Vướng mắc
+1. Xem dùm e cấu trúc thư mục
+2. Gợi ý cách đổ dữ liệu trang home
+    Ý kiến của em: 
+        Em tạo 1 div bự, bao bọc hết tất cả các section con, đổ hết 1 lần ở JS rồi hiển thị ra view. Hiện tại em hiển thị từng phần, em gọi hàm nhiều lần 
+        
+
+
+

@@ -1,19 +1,30 @@
-<title>Học lập trình miễn phí tại Zendvn</title>
-
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<link href="./public/images/favicon.ico" sizes="128x128" rel="shortcut icon" type="image/x-icon">
+<!-- Font -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600%7CUbuntu:300,400,500,700" rel="stylesheet">
 
-<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,400italic' rel='stylesheet' type='text/css'>
-<link href="./public/css/font-awesome.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="./public/css/bootstrap.min.css" media="screen">	
-<link rel="stylesheet" type="text/css" href="./public/css/jquery.bxslider.css" media="screen">
-<link rel="stylesheet" type="text/css" href="./public/css/font-awesome.css" media="screen">
-<link rel="stylesheet" type="text/css" href="./public/css/magnific-popup.css" media="screen">	
-<link rel="stylesheet" type="text/css" href="./public/css/owl.carousel.css" media="screen">
-<link rel="stylesheet" type="text/css" href="./public/css/owl.theme.css" media="screen">
-<link rel="stylesheet" type="text/css" href="./public/css/ticker-style.css"/>
-<link rel="stylesheet" type="text/css" href="./public/css/style.css" media="screen">
-<link rel="stylesheet" type="text/css" href="./public/css/zvn-video.css" media="screen">
+<!-- CSS -->
+<link rel="stylesheet" href="public/css/bootstrap-reboot.min.css">
+<link rel="stylesheet" href="public/css/bootstrap-grid.min.css">
+<link rel="stylesheet" href="public/css/owl.carousel.min.css">
+<link rel="stylesheet" href="public/css/jquery.mCustomScrollbar.min.css">
+<link rel="stylesheet" href="public/css/nouislider.min.css">
+<link rel="stylesheet" href="public/css/ionicons.min.css">
+<link rel="stylesheet" href="public/css/plyr.css">
+<link rel="stylesheet" href="public/css/photoswipe.css">
+<link rel="stylesheet" href="public/css/default-skin.css">
+<link rel="stylesheet" href="public/css/main.css">
+<link rel="stylesheet" href="public/css/zvn-css.css">
+
+<!-- Favicons -->
+<link rel="icon" type="image/png" href="public/icon/favicon-32x32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="public/icon/favicon-32x32.png">
+<link rel="apple-touch-icon" sizes="72x72" href="public/icon/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="public/icon/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="144x144" href="public/icon/apple-touch-icon-144x144.png">
+
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="Dmitry Volkov">
+<title>ZendVN – Học lập trình Online miễn phí</title>

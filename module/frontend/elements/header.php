@@ -1,71 +1,90 @@
-<header class="clearfix third-style">
-    <!-- Bootstrap navbar -->
-    <nav class="navbar navbar-default navbar-static-top" role="navigation">
-        <!-- navbar list container -->
-        <div class="nav-list-container">
-            <div class="container">
+<header class="header">
+    <div class="header__wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="header__content">
+                        <!-- header logo -->
+                        <a href="index.php" class="header__logo">
+                            <img src="public/img/logo.png" alt="">
+                        </a>
+                        <!-- end header logo -->
 
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.php"><img src="public/images/logo.png" alt=""></a>
+                        <!-- header nav -->
+                        <ul class="header__nav">
+                            <!-- dropdown -->
+                            <li class="header__nav-item">
+                                <a class="dropdown-toggle header__nav-link" href="index.php" role="button">Trang chủ</a>
+                            </li>
+                            <!-- end dropdown -->
+
+                            <!-- dropdown -->
+                            <li class="header__nav-item">
+                                <a class="dropdown-toggle header__nav-link" href="#" role="button" id="dropdownMenuCatalog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Backend</a>
+
+                                <!-- <ul class="dropdown-menu header__dropdown-menu" aria-labelledby="dropdownMenuCatalog">
+                                    <li><a href="catalog1.html">Catalog Grid</a></li>
+                                    <li><a href="catalog2.html">Catalog List</a></li>
+                                    <li><a href="details1.html">Details Movie</a></li>
+                                    <li><a href="details2.html">Details TV Series</a></li>
+                                </ul> -->
+                            </li>
+                            <!-- end dropdown -->
+
+                            <!-- dropdown -->
+                            <li class="dropdown header__nav-item">
+                            <a class="dropdown-toggle header__nav-link" href="#" role="button" id="dropdownMenuCatalog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Frontend</a>
+
+                                <!-- <ul class="dropdown-menu header__dropdown-menu" aria-labelledby="dropdownMenuMore">
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="signin.html">Sign In</a></li>
+                                    <li><a href="signup.html">Sign Up</a></li>
+                                    <li><a href="404.html">404 Page</a></li>
+                                </ul> -->
+                            </li>
+                            <!-- end dropdown -->
+                        </ul>
+                        <!-- end header nav -->
+
+                        <!-- header auth -->
+                        <div class="header__auth">
+                            <button class="header__search-btn" type="button">
+                                <i class="icon ion-ios-search"></i>
+                            </button>
+
+                            <a href="signin.html" class="header__sign-in">
+                                <i class="icon ion-ios-log-in"></i>
+                                <span>đăng nhập</span>
+                            </a>
+                        </div>
+                        <!-- end header auth -->
+
+                        <!-- header menu btn -->
+                        <button class="header__btn" type="button">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                        <!-- end header menu btn -->
+                    </div>
                 </div>
-
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-
-                        <li><a class="active" href="index.php">Trang chủ</a></li>
-
-                        <li class="drop-arrow"><a href="course-backend.php">Lập trình server</a>
-                            <div class="megadropdown">
-                                <div class="container">
-                                    <div class="inner-megadropdown world-dropdown">
-                                        <div class="filter-block">
-                                            <ul class="filter-posts">
-                                                <li><a href="course-php.php">PHP</a></li>
-                                                <li><a href="course-laravel.php">Laravel</a></li>
-                                                <!-- <li><a class="active" href="#">sport</a></li> -->
-                                                <li><a href="course-falcon.php">Falcon</a></li>
-                                                <li><a href="course-zend.php">Zend</a></li>
-                                                <li><a href="course-node.php">NodeJS</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="drop-arrow"><a href="course-frontend.php">Lập trình giao diện</a>
-                            <div class="megadropdown">
-                                <div class="container">
-                                    <div class="inner-megadropdown tech-dropdown">
-
-                                        <div class="owl-wrapper">
-                                            <ul class="horizontal-filter-posts">
-                                                <li><a class="active" href="#">Jquery</a></li>
-                                                <li><a href="#">ReactJS</a></li>
-                                                <li><a href="#">VueJS</a></li>
-                                                <li><a href="#">Sass</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li><a href="video-category.html">Đăng nhập</a></li>
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
             </div>
         </div>
-        <!-- End navbar list container -->
+    </div>
 
-    </nav>
-    <!-- End Bootstrap navbar -->
+    <!-- header search -->
+    <form action="#" class="header__search">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="header__search-content">
+                        <input type="text" placeholder="Nhập tên khóa học hoặc bài học">
 
+                        <button type="button">tìm kiếm</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <!-- end header search -->
 </header>

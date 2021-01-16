@@ -4,8 +4,15 @@
 3. in ra được console danh sách video trong 1 playlist
 4. Tìm theme video 
 
+tìm kiếm:
+khi user click vô xem 1 khóa học thì tạo file course-X.json để lưu tất cả các video trong có khóa học
+=> giúp cho việc tìm kiếm nhanh hơn, parse file mỗi ngày 1 lần
 
 
+Sang Frontend: 	Home: danh sách khóa học và 8 video của mỗi khóa học, xem thêm
+	Detail: danh sách video trong khóa học, control, đánh dấu video đã xem
+	Tìm kiếm
+Lưu video vào file course-X.json, tùy khóa học X thay đổi X = id khóa học
 ================== category course ==================
 [
   {

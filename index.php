@@ -1,17 +1,17 @@
-<!doctype html>
-<html lang="en" class="no-js">
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
 	<?php require_once 'module/frontend/elements/head.php' ?>
 
 </head>
-<body>
-	<!-- Container -->
-	<div id="container">
-		<?php require_once 'module/frontend/elements/header.php' ?>
-		<?php require_once 'module/frontend/pages/home/index.php' ?>
-		<?php require_once 'module/frontend/elements/footer.php' ?>
-	</div>
-	<!-- End Container -->
+<body class="body">
+	
+	<?php require_once 'module/frontend/elements/header.php' ?>
+	<?php require_once 'module/frontend/pages/home/index.php' ?>
+	<?php require_once 'module/frontend/elements/footer.php' ?>
 	<?php require_once 'module/frontend/elements/script.php' ?>
+
 </body>
+
 </html>

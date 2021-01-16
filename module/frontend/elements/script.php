@@ -1,14 +1,13 @@
-<script type="text/javascript" src="./public/js/jquery.min.js"></script>
-<script type="text/javascript" src="./public/js/jquery.migrate.js"></script>
-<script type="text/javascript" src="./public/js/jquery.bxslider.min.js"></script>
-<script type="text/javascript" src="./public/js/jquery.magnific-popup.min.js"></script>
-<script type="text/javascript" src="./public/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="./public/js/jquery.ticker.js"></script>
-<script type="text/javascript" src="./public/js/jquery.imagesloaded.min.js"></script>
-<script type="text/javascript" src="./public/js/jquery.isotope.min.js"></script>
-<script type="text/javascript" src="./public/js/owl.carousel.min.js"></script>
-<script type="text/javascript" src="./public/js/theia-sticky-sidebar.js"></script>
-<script type="text/javascript" src="./public/js/sticky.js"></script>
-<script type="text/javascript" src="./public/js/retina-1.1.0.min.js"></script>
-<script type="text/javascript" src="./public/js/script.js"></script>
-<script type="text/javascript" src="./public/js/zvn-video.js"></script>
+<script src="./public/js/jquery-3.3.1.min.js"></script>
+<script src="./public/js/bootstrap.bundle.min.js"></script>
+<script src="./public/js/owl.carousel.min.js"></script>
+<script src="./public/js/jquery.mousewheel.min.js"></script>
+<script src="./public/js/jquery.mCustomScrollbar.min.js"></script>
+<script src="./public/js/wNumb.js"></script>
+<script src="./public/js/nouislider.min.js"></script>
+<script src="./public/js/plyr.min.js"></script>
+<script src="./public/js/jquery.morelines.min.js"></script>
+<script src="./public/js/photoswipe.min.js"></script>
+<script src="./public/js/photoswipe-ui-default.min.js"></script>
+<script src="./public/js/main.js"></script>
+<script src="./public/js/zvn-js.js"></script>
