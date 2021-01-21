@@ -78,7 +78,7 @@
             </div>
         </div>
         <div class="col-12">
-            <a href="php-course.html" class="section__btn">Xem thêm</a>
+            <a href="details.php" class="section__btn">Xem thêm</a>
         </div>
     </div>
 </section>

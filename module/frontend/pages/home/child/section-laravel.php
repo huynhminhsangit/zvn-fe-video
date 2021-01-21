@@ -7,7 +7,7 @@
             <div class="col-6 col-sm-4 col-lg-3 col-xl-3">
                 <div class="card">
                     <div class="card__cover">
-                        <img src="public/img/covers/cover.jpg" alt="">
+                        <img src="public/img/covers/loading.gif" alt="">
                         <a href="#" class="card__play">
                             <i class="icon ion-ios-play"></i>
                         </a>
@@ -25,7 +25,7 @@
             <div class="col-6 col-sm-4 col-lg-3 col-xl-3">
                 <div class="card">
                     <div class="card__cover">
-                        <img src="public/img/covers/cover.jpg" alt="">
+                        <img src="public/img/covers/loading.gif" alt="">
                         <a href="#" class="card__play">
                             <i class="icon ion-ios-play"></i>
                         </a>
@@ -43,7 +43,7 @@
             <div class="col-6 col-sm-4 col-lg-3 col-xl-3">
                 <div class="card">
                     <div class="card__cover">
-                        <img src="public/img/covers/cover.jpg" alt="">
+                        <img src="public/img/covers/loading.gif" alt="">
                         <a href="#" class="card__play">
                             <i class="icon ion-ios-play"></i>
                         </a>
@@ -61,7 +61,7 @@
             <div class="col-6 col-sm-4 col-lg-3 col-xl-3">
                 <div class="card">
                     <div class="card__cover">
-                        <img src="public/img/covers/cover.jpg" alt="">
+                        <img src="public/img/covers/loading.gif" alt="">
                         <a href="#" class="card__play">
                             <i class="icon ion-ios-play"></i>
                         </a>
@@ -78,7 +78,7 @@
             </div>
         </div>
         <div class="col-12">
-            <a href="php-course.html" class="section__btn">Xem thêm</a>
+            <a href="details.php" class="section__btn">Xem thêm</a>
         </div>
     </div>
 </section>
