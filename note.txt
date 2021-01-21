@@ -22,11 +22,7 @@
             Giao diện giống trang chủ, nhưng khi người dùng tìm kiếm sẽ lọc lại tên khóa học, bài học tương ứng
         Phần model
             Người dùng bấm nút tìm kiếm, vô file all-course-content.json lấy ra dữ liệu, so sánh và hiển thị
-Vướng mắc
-1. Xem dùm e cấu trúc thư mục
-2. Gợi ý cách đổ dữ liệu trang home
-    Ý kiến của em: 
-        Em tạo 1 div bự, bao bọc hết tất cả các section con, đổ hết 1 lần ở JS rồi hiển thị ra view. Hiện tại em hiển thị từng phần, em gọi hàm nhiều lần 
+
         
 
 
