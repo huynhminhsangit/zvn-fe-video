@@ -8,7 +8,7 @@
         <div class="row">
             <!-- title -->
             <div class="col-12">
-                <h1 class="details__title">Lập trình PHP</h1>
+                <h1 class="details__title" id="courseName">Lập trình PHP</h1>
             </div>
             <!-- end title -->
            <?php require_once 'player.php' ?>

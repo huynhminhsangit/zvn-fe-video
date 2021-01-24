@@ -6,7 +6,7 @@ $( document ).ready(function() {
         {courseName: "Tự học SASS",courseCode: 'sass',playlistId: 'PLv6GftO355AtWld1EE7SBAH-OkKKt23Bb', maxResults: 8, areaFilter: 'sass-course' },
         {courseName:"Lập trình ReactJS",courseCode: 'react', playlistId: 'PLv6GftO355AsWv1PaUHRAAf1NB0usIhVD', maxResults: 8, areaFilter: 'react-course'},
     ];
-    funcLoadData(arrCourse);
+    funcLoadDataIndex(arrCourse);
 
     getUrlParameter = (sParam) => {
         let sPageURL = window.location.search.substring(1),
@@ -27,7 +27,7 @@ $( document ).ready(function() {
     funcLoadPlayListVideo(currCourseCodeStr, arrCourse);
 });
 
-const funcLoadData = (arrData) => {
+const funcLoadDataIndex = (arrData) => {
     let xhtmlParent = ``;
     let url = 'https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet';
     for (const item of arrData) {
@@ -160,22 +160,31 @@ const funcLoadPlayListVideo = (courseCode, arrData) => {
     let xhtml = ``;
     let url = 'https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet';
     const currCourseInfo = arrData.find(item => item.courseCode == courseCode);
+    $('#courseName').html(currCourseInfo.courseName);
     url += '&playlistId='+currCourseInfo.playlistId+'&maxResults=200&key=AIzaSyAZw_G7Z2N2Ybqq8k9sOWmNB8Cga9If5IQ';
     $.getJSON(url, function( data ) {
+        xhtml += `
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Tên bài học</th>
+            </tr>
+        </thead>`;
         data.items.forEach((element, index) => {
             xhtml += `
-            <tr>
-                <th>${index+1}</th>
-                <td data-video="${element.snippet.resourceId.videoId}">${element.snippet.title}
+            <tr data-id="${element.snippet.resourceId.videoId}">
+                <td>${index+1}</td>
+                <td>${element.snippet.title}
                 </td>
             </tr>`;
         });
-        $('#playlist-video').html(xhtml);
+        $('#listVideo').html(xhtml);
     });
-    $('#my-table').on('click', 'tbody tr td', () =>{
-        var id = $(this).attr('data-video');
-        console.log(id);
-        // console.log(12);
+    $('#listVideo').on('click','tr', function(){
+        let videoId = $(this).data('id');
+        let videoURL = 'https://www.youtube.com/embed/'+videoId;
+        let iframeHTML = `<iframe width="560" height="315" src="${videoURL}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+        $('#player').html(iframeHTML);
         
     });
 }

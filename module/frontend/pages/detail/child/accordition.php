@@ -5,7 +5,7 @@
                 <div class="accordion__card">
                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                         <div class="card-body">
-                            <table class="accordion__list" id="my-table">
+                            <table class="accordion__list" id="listVideo">
                                 <thead>
                                     <tr>
                                         <th>#</th>
@@ -13,7 +13,7 @@
                                     </tr>
                                 </thead>
 
-                                <tbody id="playlist-video">
+                                <tbody>
                                     <tr>
                                         <th>1</th>
                                         <td>Pilot</td>
@@ -64,211 +64,7 @@
                                         <td>The Socratic Method</td>
                                         <td>Tuesday, December 21st, 2004</td>
                                     </tr>
-                                    <tr>
-                                        <th>6</th>
-                                        <td>The Socratic Method</td>
-                                        <td>Tuesday, December 21st, 2004</td>
-                                    </tr>
-                                    <tr>
-                                        <th>6</th>
-                                        <td>The Socratic Method</td>
-                                        <td>Tuesday, December 21st, 2004</td>
-                                    </tr>
-                                    <tr>
-                                        <th>6</th>
-                                        <td>The Socratic Method</td>
-                                        <td>Tuesday, December 21st, 2004</td>
-                                    </tr>
-                                    <tr>
-                                        <th>6</th>
-                                        <td>The Socratic Method</td>
-                                        <td>Tuesday, December 21st, 2004</td>
-                                    </tr>
-                                    <tr>
-                                        <th>6</th>
-                                        <td>The Socratic Method</td>
-                                        <td>Tuesday, December 21st, 2004</td>
-                                    </tr>
-                                    <tr>
-                                        <th>6</th>
-                                        <td>The Socratic Method</td>
-                                        <td>Tuesday, December 21st, 2004</td>
-                                    </tr>
-                                    <tr>
-                                        <th>6</th>
-                                        <td>The Socratic Method</td>
-                                        <td>Tuesday, December 21st, 2004</td>
-                                    </tr>
-                                    <tr>
-                                        <th>6</th>
-                                        <td>The Socratic Method</td>
-                                        <td>Tuesday, December 21st, 2004</td>
-                                    </tr>
-                                    <tr>
-                                        <th>6</th>
-                                        <td>The Socratic Method</td>
-                                        <td>Tuesday, December 21st, 2004</td>
-                                    </tr>
-                                    <tr>
-                                        <th>6</th>
-                                        <td>The Socratic Method</td>
-                                        <td>Tuesday, December 21st, 2004</td>
-                                    </tr>
-                                    <tr>
-                                        <th>6</th>
-                                        <td>The Socratic Method</td>
-                                        <td>Tuesday, December 21st, 2004</td>
-                                    </tr>
-                                    <tr>
-                                        <th>6</th>
-                                        <td>The Socratic Method</td>
-                                        <td>Tuesday, December 21st, 2004</td>
-                                    </tr>
-                                    <tr>
-                                        <th>6</th>
-                                        <td>The Socratic Method</td>
-                                        <td>Tuesday, December 21st, 2004</td>
-                                    </tr>
-                                    <tr>
-                                        <th>6</th>
-                                        <td>The Socratic Method</td>
-                                        <td>Tuesday, December 21st, 2004</td>
-                                    </tr>
-                                    <tr>
-                                        <th>6</th>
-                                        <td>The Socratic Method</td>
-                                        <td>Tuesday, December 21st, 2004</td>
-                                    </tr>
-                                    <tr>
-                                        <th>6</th>
-                                        <td>The Socratic Method</td>
-                                        <td>Tuesday, December 21st, 2004</td>
-                                    </tr>
-                                    <tr>
-                                        <th>6</th>
-                                        <td>The Socratic Method</td>
-                                        <td>Tuesday, December 21st, 2004</td>
-                                    </tr>
-                                    <tr>
-                                        <th>6</th>
-                                        <td>The Socratic Method</td>
-                                        <td>Tuesday, December 21st, 2004</td>
-                                    </tr>
-                                    <tr>
-                                        <th>6</th>
-                                        <td>The Socratic Method</td>
-                                        <td>Tuesday, December 21st, 2004</td>
-                                    </tr>
-                                    <tr>
-                                        <th>6</th>
-                                        <td>The Socratic Method</td>
-                                        <td>Tuesday, December 21st, 2004</td>
-                                    </tr>
-                                    <tr>
-                                        <th>6</th>
-                                        <td>The Socratic Method</td>
-                                        <td>Tuesday, December 21st, 2004</td>
-                                    </tr>
-                                    <tr>
-                                        <th>6</th>
-                                        <td>The Socratic Method</td>
-                                        <td>Tuesday, December 21st, 2004</td>
-                                    </tr>
-                                    <tr>
-                                        <th>6</th>
-                                        <td>The Socratic Method</td>
-                                        <td>Tuesday, December 21st, 2004</td>
-                                    </tr>
-                                    <tr>
-                                        <th>6</th>
-                                        <td>The Socratic Method</td>
-                                        <td>Tuesday, December 21st, 2004</td>
-                                    </tr>
-                                    <tr>
-                                        <th>6</th>
-                                        <td>The Socratic Method</td>
-                                        <td>Tuesday, December 21st, 2004</td>
-                                    </tr>
-                                    <tr>
-                                        <th>6</th>
-                                        <td>The Socratic Method</td>
-                                        <td>Tuesday, December 21st, 2004</td>
-                                    </tr>
-                                    <tr>
-                                        <th>6</th>
-                                        <td>The Socratic Method</td>
-                                        <td>Tuesday, December 21st, 2004</td>
-                                    </tr>
-                                    <tr>
-                                        <th>6</th>
-                                        <td>The Socratic Method</td>
-                                        <td>Tuesday, December 21st, 2004</td>
-                                    </tr>
-                                    <tr>
-                                        <th>6</th>
-                                        <td>The Socratic Method</td>
-                                        <td>Tuesday, December 21st, 2004</td>
-                                    </tr>
-                                    <tr>
-                                        <th>6</th>
-                                        <td>The Socratic Method</td>
-                                        <td>Tuesday, December 21st, 2004</td>
-                                    </tr>
-                                    <tr>
-                                        <th>6</th>
-                                        <td>The Socratic Method</td>
-                                        <td>Tuesday, December 21st, 2004</td>
-                                    </tr>
-                                    <tr>
-                                        <th>6</th>
-                                        <td>The Socratic Method</td>
-                                        <td>Tuesday, December 21st, 2004</td>
-                                    </tr>
-                                    <tr>
-                                        <th>6</th>
-                                        <td>The Socratic Method</td>
-                                        <td>Tuesday, December 21st, 2004</td>
-                                    </tr>
-                                    <tr>
-                                        <th>6</th>
-                                        <td>The Socratic Method</td>
-                                        <td>Tuesday, December 21st, 2004</td>
-                                    </tr>
-                                    <tr>
-                                        <th>6</th>
-                                        <td>The Socratic Method</td>
-                                        <td>Tuesday, December 21st, 2004</td>
-                                    </tr>
-                                    <tr>
-                                        <th>6</th>
-                                        <td>The Socratic Method</td>
-                                        <td>Tuesday, December 21st, 2004</td>
-                                    </tr>
-                                    <tr>
-                                        <th>6</th>
-                                        <td>The Socratic Method</td>
-                                        <td>Tuesday, December 21st, 2004</td>
-                                    </tr>
-                                    <tr>
-                                        <th>6</th>
-                                        <td>The Socratic Method</td>
-                                        <td>Tuesday, December 21st, 2004</td>
-                                    </tr>
-                                    <tr>
-                                        <th>6</th>
-                                        <td>The Socratic Method</td>
-                                        <td>Tuesday, December 21st, 2004</td>
-                                    </tr>
-                                    <tr>
-                                        <th>6</th>
-                                        <td>The Socratic Method</td>
-                                        <td>Tuesday, December 21st, 2004</td>
-                                    </tr>
-                                    <tr>
-                                        <th>6</th>
-                                        <td>The Socratic Method</td>
-                                        <td>Tuesday, December 21st, 2004</td>
-                                    </tr>
+                                    
                                 </tbody>
                             </table>
                         </div>
